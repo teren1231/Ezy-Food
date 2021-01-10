@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuDrinks"
+    android:orientation="vertical"
+    android:background="#222627">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Foods"
+            android:textColor="#FF9811"
+            android:textSize="26dp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/btnMyOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Order"
+            android:layout_marginStart="75dp"></Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp" >
+
+        <ImageView
+            android:id="@+id/indomie"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/indomie"
+            android:layout_margin="50dp" />
+
+        <ImageView
+            android:id="@+id/ayam"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ayam"
+            android:layout_margin="50dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="-100dp">
+
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:text="Indomie\nRp 5000"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_margin="50dp" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="Ayam Goreng\nRp 12000"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_margin="50dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/ikan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ikan"
+            android:layout_margin="50dp" />
+
+        <ImageView
+            android:id="@+id/nasi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/nasi"
+            android:layout_margin="50dp"/>
+    </LinearLayout>
+
+   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Ikan Bakar\nRp 20000"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Nasi Goreng\nRp 15000"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="80dp" />
+    </LinearLayout>
+
+</LinearLayout>
